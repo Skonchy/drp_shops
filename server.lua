@@ -6,14 +6,16 @@ AddEventHandler("DRP_shop:CheckMoney", function(item, price)
     print("done stuff")
     local src = source
     local dataUser = exports["drp_id"]:GetCharacterData(src)
-
+    local selected = item
     TriggerEvent("DRP_Bank:GetCharacterMoney", dataUser.charid, function(characterMoney)
         local userMoney = characterMoney.data[1].cash
 
 		if price < userMoney then
-			print(item)
+            if type(selected) == 'table' then
+                selected = selected.item
+            end
             TriggerEvent("DRP_Bank:RemoveCashMoney", dataUser, price)
-            TriggerEvent("DRP_Inventory:addInventoryItem", item, 1, src)
+            TriggerEvent("DRP_Inventory:addInventoryItem", selected, 1, src)
         else
             -- no money
         end
