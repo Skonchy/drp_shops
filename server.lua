@@ -3,7 +3,6 @@
 ---------------------------------------------------------------------------
 RegisterServerEvent("DRP_shop:CheckMoney")
 AddEventHandler("DRP_shop:CheckMoney", function(item, price)
-    print("done stuff")
     local src = source
     local dataUser = exports["drp_id"]:GetCharacterData(src)
     local selected = item

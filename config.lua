@@ -69,6 +69,18 @@ DRPConfig.Locations = {
 
 
 DRPConfig.Items = {
-	---------------------------------------------------- Compact Vehicles ---------------------------------------------------------------
+	---------------------------------------------------- Drinks ---------------------------------------------------------------
 		{name = "Water", categorie = "drinks", item = "water", costs = 5, description = {}, img = "https://wiki.rage.mp/images/5/58/Blista.png"},
+		{name = "Soda", categorie = "drinks", item = "soda", costs = 5, description = {}, img = "https://wiki.rage.mp/images/5/58/Blista.png"},
+		{name = "Vodka", categorie = "drinks", item = "vodka", costs = 5, description = {}, img = "https://wiki.rage.mp/images/5/58/Blista.png"},
+	---------------------------------------------------- Food ---------------------------------------------------------------
+		{name = "Hamburger", categorie = "food", item = "hamburger", costs = 5, description = {}, img = "https://wiki.rage.mp/images/5/58/Blista.png"},
+		{name = "Hotdog", categorie = "food", item = "hotdog", costs = 5, description = {}, img = "https://wiki.rage.mp/images/5/58/Blista.png"},
+		{name = "Chips", categorie = "food", item = "chips", costs = 5, description = {}, img = "https://wiki.rage.mp/images/5/58/Blista.png"},
+	---------------------------------------------------- Auto Care ---------------------------------------------------------------
+		{name = "Repair Kit", categorie = "autocare", item = "repair", costs = 250, description = {}, img = "https://huckberry.imgix.net/spree/products/426850/original/8tx4GWIuli_usag_the_workmans_toolbox_8_original.jpg?auto=format%2Ccompress&crop=top&fit=clip&cs=tinysrgb&w=600&ixlib=react-9.0.1&h=600&w=600"},
+	---------------------------------------------------- Misc ---------------------------------------------------------------
+		{name = "Ziptie", categorie = "misc", item = "ziptie", costs = 100, description = {}, img = "https://www.robosource.net/69-thickbox_default/4-zip-tie-black-100-pack.jpg"},
+		{name = "Bandage", categorie = "misc", item = "bandage", costs = 100, description = {}, img = "https://www.sfpharmaplus.com/7909-large_default/net-bandage-hydrophilic-cotton-thread-white-color-10-m-x-10-cm.jpg"},
+		{name = "Cigarette", categorie = "misc", item = "cigarette", costs = 20, description = {}, img = "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSzXVIbXpilMNX6vESnyVzsBn8QI8nyTBE6MQ&usqp=CAU"},
 }
