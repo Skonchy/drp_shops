@@ -71,8 +71,8 @@ DRPConfig.Locations = {
 DRPConfig.Items = {
 	---------------------------------------------------- Drinks ---------------------------------------------------------------
 		{name = "Water", categorie = "drinks", item = "water", costs = 5, description = {}, img = "https://wiki.rage.mp/images/5/58/Blista.png"},
-		{name = "Soda", categorie = "drinks", item = "soda", costs = 5, description = {}, img = "https://wiki.rage.mp/images/5/58/Blista.png"},
-		{name = "Vodka", categorie = "drinks", item = "vodka", costs = 5, description = {}, img = "https://wiki.rage.mp/images/5/58/Blista.png"},
+		{name = "Soda", categorie = "drinks", item = "soda", costs = 6, description = {}, img = "https://icf.listex.info/300x200/b5617e6a-4917-7c69-2b4e-84379750c773.jpg"},
+		{name = "Vodka", categorie = "drinks", item = "vodka", costs = 20, description = {}, img = "https://wiki.rage.mp/images/5/58/Blista.png"},
 	---------------------------------------------------- Food ---------------------------------------------------------------
 		{name = "Hamburger", categorie = "food", item = "hamburger", costs = 5, description = {}, img = "https://wiki.rage.mp/images/5/58/Blista.png"},
 		{name = "Hotdog", categorie = "food", item = "hotdog", costs = 5, description = {}, img = "https://wiki.rage.mp/images/5/58/Blista.png"},
@@ -82,5 +82,5 @@ DRPConfig.Items = {
 	---------------------------------------------------- Misc ---------------------------------------------------------------
 		{name = "Ziptie", categorie = "misc", item = "ziptie", costs = 100, description = {}, img = "https://www.robosource.net/69-thickbox_default/4-zip-tie-black-100-pack.jpg"},
 		{name = "Bandage", categorie = "misc", item = "bandage", costs = 100, description = {}, img = "https://www.sfpharmaplus.com/7909-large_default/net-bandage-hydrophilic-cotton-thread-white-color-10-m-x-10-cm.jpg"},
-		{name = "Cigarette", categorie = "misc", item = "cigarette", costs = 20, description = {}, img = "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSzXVIbXpilMNX6vESnyVzsBn8QI8nyTBE6MQ&usqp=CAU"},
+		{name = "Cigarette", categorie = "misc", item = "cigarette", costs = 4, description = {}, img = "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSzXVIbXpilMNX6vESnyVzsBn8QI8nyTBE6MQ&usqp=CAU"},
 }
